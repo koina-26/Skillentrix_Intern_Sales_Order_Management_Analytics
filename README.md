@@ -43,28 +43,27 @@ We design a normalized 6-table relational database from scratch, load real Olist
 
 ```mermaid
 flowchart TD
-    A([🚀 Start]) --> B[📋 Phase 1 — Business Requirements Planning]
-    B --> C[🏗️ Phase 2 — Create Tables DDL]
-    C --> D[📥 Phase 3 — Insert Data DML]
-    D --> E[✏️ Phase 4 — CRUD Operations]
-    E --> F[🔗 Phase 5 — JOIN Queries]
-    F --> F1[INNER JOIN · LEFT JOIN · Multi-table Joins]
-    F --> G[📊 Phase 6 — Aggregate Functions & GROUP BY]
-    G --> G1[SUM · COUNT · AVG · HAVING]
-    F1 & G1 --> H[⚙️ Phase 7 — Advanced SQL]
-    H --> H1[CTEs · Subqueries · CASE · Window Functions]
-    H1 --> I[🏛️ Phase 8 — Views · Indexes · Stored Procedures]
-    I --> J[🔒 Phase 9 — Transactions & Error Handling]
-    J --> K[🔐 Phase 10 — Dynamic SQL & Security]
-    K --> L[⚡ Phase 11 — Triggers & Audit Tables]
-    L --> M[📈 Phase 12 — Capstone Final Report & Business Dashboard]
-    M --> M1[Part A — Revenue & Sales KPIs]
-    M --> M2[Part B — Product & Seller Performance]
-    M --> M3[Part C — Customer Segmentation]
-    M --> M4[Part D — Monthly Trends & Final Report]
-    M1 & M2 & M3 & M4 --> N([✅ Project Complete — 300+ Queries])
+    A([Start]) --> B[Phase 1 - Business Requirements Planning]
+    B --> C[Phase 2 - Create Tables DDL]
+    C --> D[Phase 3 - Insert Data DML]
+    D --> E[Phase 4 - CRUD Operations]
+    E --> F[Phase 5 - JOIN Queries]
+    F --> F1[INNER JOIN, LEFT JOIN, Multi-table Joins]
+    F1 --> G[Phase 6 - Aggregate Functions and GROUP BY]
+    G --> G1[SUM, COUNT, AVG, GROUP BY, HAVING]
+    G1 --> H[Phase 7 - Advanced SQL]
+    H --> H1[CTEs, Subqueries, CASE, Window Functions]
+    H1 --> I[Phase 8 - Views, Indexes, Stored Procedures]
+    I --> J[Phase 9 - Transactions and Error Handling]
+    J --> K[Phase 10 - Dynamic SQL and Security]
+    K --> L[Phase 11 - Triggers and Audit Tables]
+    L --> M[Phase 12 - Capstone Final Report and Dashboard]
+    M --> M1[Part A - Revenue and Sales KPIs]
+    M --> M2[Part B - Product and Seller Performance]
+    M --> M3[Part C - Customer Segmentation]
+    M --> M4[Part D - Monthly Trends and Final Report]
+    M1 & M2 & M3 & M4 --> N([Project Complete - 300 Plus Queries])
 ```
-
 ---
 
 ## 📂 Project Structure
